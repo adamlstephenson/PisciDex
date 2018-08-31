@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Navbar.css';
 
 class Navbar extends Component {
     render() {
@@ -48,6 +49,12 @@ class Navbar extends Component {
                                     <a href="#">Page 3</a>
                                 </li>
                             </ul>
+                        </li>
+                        <li>
+                            <a href="#">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
                         </li>
                     </ul>
 
