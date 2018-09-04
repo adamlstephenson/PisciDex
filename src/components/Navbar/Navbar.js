@@ -2,11 +2,18 @@ import React, { Component } from 'react';
 import './Navbar.css';
 
 class Navbar extends Component {
+
+    toggleClass = () => {
+        const sidebar = this.refs.toggleActive
+        sidebar.classList.toggle('active')
+    }
+
     render() {
+
         return (
             <div className="wrapper">
                 {/* Sidebar */}
-                <nav id="sidebar">
+                <nav id="sidebar" ref="toggleActive">
                     <div className="sidebar-header">
                         <h3>PisciDex</h3>
                         <strong>PD</strong>
@@ -64,7 +71,7 @@ class Navbar extends Component {
                 <div id="content">
                     <nav className="navbar navbar-expand-lg navbar-light bg-light">
                         <div className="container-fluid">
-                            <button type="button" id="sidebarCollapse" className="btn btn-info">
+                            <button type="button" id="sidebarCollapse" className="btn btn-info" onClick={this.toggleClass}>
                                 <i className="fas fa-align-left"></i>
                                 <span>Toggle Sidebar</span>
                             </button>
