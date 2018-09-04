@@ -22,7 +22,8 @@ class Navbar extends Component {
                     <ul className="list-unstyled components">
                         <li className="active">
                             <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">
-                                <i className="fas fa-home">Home</i>
+                                <i className="fas fa-home"></i>
+                                Home
                             </a>
                             <ul className="collapse list-unstyled" id="homeSubmenu">
                                 <li>
