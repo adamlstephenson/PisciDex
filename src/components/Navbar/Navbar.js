@@ -21,21 +21,10 @@ class Navbar extends Component {
 
                     <ul className="list-unstyled components">
                         <li className="active">
-                            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">
+                            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">
                                 <i className="fas fa-home"></i>
-                                Home
+                                Dashboard
                             </a>
-                            <ul className="collapse list-unstyled" id="homeSubmenu">
-                                <li>
-                                    <a href="#">Home 1</a>
-                                </li>
-                                <li>
-                                    <a href="#">Home 2</a>
-                                </li>
-                                <li>
-                                    <a href="#">Home 3</a>
-                                </li>
-                            </ul>
                         </li>
                         <li>
                             <a href="#">
@@ -62,7 +51,7 @@ class Navbar extends Component {
                             <a href="#">Portfolio</a>
                         </li>
                         <li>
-                            <a href="#">Contact</a>
+                            <a href="#">Feedback</a>
                         </li>
                     </ul>
 
@@ -74,7 +63,6 @@ class Navbar extends Component {
                         <div className="container-fluid">
                             <button type="button" id="sidebarCollapse" className="btn btn-info" onClick={this.toggleClass}>
                                 <i className="fas fa-align-left"></i>
-                                <span>Toggle Sidebar</span>
                             </button>
                         </div>
                     </nav>

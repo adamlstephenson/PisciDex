@@ -5,6 +5,7 @@
 
 body {
     background: #fafafa;
+    font-family: 'Vollkorn SC', serif;
 }
 
 #sidebar {
@@ -23,6 +24,7 @@ body {
 #sidebar .sidebar-header {
     padding: 20px;
     background: #54A044;
+    font-family: 'Vollkorn', serif;
 }
 
 #sidebar ul.components {
@@ -79,7 +81,6 @@ a[data-toggle="collapse"] {
 #sidebar.active {
     min-width: 80px;
     max-width: 80px;
-    margin-left: -250px;
     text-align: center;
 }
 
@@ -141,11 +142,14 @@ a[data-toggle="collapse"] {
 }
 
 #sidebarCollapse {
-    margin-left: 250px;
+    margin-left: 160px;
+    background-color: #EEE9C9;
+    border-style: none;
+    color: #54A044;
 }
 
 .fas {
-    padding-right: 5% !important;
+    padding-right: 5%
 }
 
 /* Media queries */
