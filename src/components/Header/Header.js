@@ -9,7 +9,7 @@ class Header extends Component {
             <nav className="navbar navbar-default" id="header">
                 <div className="container-fluid">
                     <div className="navbar-header">
-                        <button type="button" class="btn btn-default navbar-btn">Sign in</button>
+                    <p class="navbar-text navbar-right">Signed in as <a href="#" class="navbar-link">Mark Otto</a></p>
                     </div>
                 </div>
             </nav>
